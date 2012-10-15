@@ -2,4 +2,9 @@
 
 # Heroku
 
+heroku create
+heroku config:add NODE_ENV=production
+heroku addons:add mongolab:starter
+heroku heroku addons:add mongolab:starter
+git push heroku master
 
