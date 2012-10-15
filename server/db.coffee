@@ -12,7 +12,7 @@ exports.initialize_redis = (redis_uri)->
   if redis_uri?
     rtg = require("url").parse(redis_uri)
     exports.redis_db = db = redis.createClient(rtg.port, rtg.hostname)
-    redis.auth(rtg.auth.split(":")[1]);
+    db.auth(rtg.auth.split(":")[1]);
   else
     exports.redis_db = db = redis.createClient()
 
