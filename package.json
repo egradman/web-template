@@ -12,6 +12,7 @@
     "coffee-script": "*",
     "express": "3.x",
     "connect": "2.4.x",
+    "connect-redis": ">= 1.0.0",
     "jade": "*",
     "mongoose": "*",
     "redis": "*",
