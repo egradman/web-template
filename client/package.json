@@ -1,0 +1,25 @@
+{
+  "author": "Eric Gradman",
+  "name": "brunch-template",
+  "description": "egradman brunch template",
+  "version": "0.0.1",
+  "engines": {
+    "node": "~0.6.25 || 0.8 || 0.9"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "coffee-script-brunch": "> 1.0 < 1.5",
+    "stylus-brunch": ">= 1.0 < 1.4",
+    "jade-brunch": "> 1.0 < 1.5",
+
+    "uglify-js-brunch": "> 1.0 < 1.5",
+    "clean-css-brunch": "> 1.0 < 1.5",
+    "css-brunch": "> 1.0 < 1.5",
+    "javascript-brunch": "> 1.0 < 1.5",
+
+    "auto-reload-brunch": "> 1.0 < 1.5"
+  },
+  "devDependencies": {
+  }
+}

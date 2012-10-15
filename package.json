@@ -1,0 +1,24 @@
+{
+  "name": "web-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor -w server -x coffee -- server/server.coffee"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "express": "3.x",
+    "connect": "2.4.x",
+    "jade": "*",
+    "mongoose": "*",
+    "redis": "*",
+    "supergoose": "*",
+    "request": "2.x",
+    "underscore": "*"
+  },
+  "devDependencies": {
+  }
+}
