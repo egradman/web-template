@@ -12,11 +12,13 @@ SECRET = "alslknn1990w02"
 RedisStore = require('connect-redis')(connect)
 
 app = express()
-app.configure "development", ->
-  conf = require("../conf-development")
+
+# default (development)
+conf = require("../conf-development")
 
 app.configure "production", ->
   conf = require("../conf-production")
+console.log(conf)
 
 db_module = require("./db")
 db_module.initialize_mongo conf["mongo_uri"]
