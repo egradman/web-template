@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "supervisor -w server -x coffee -- server/server.coffee"
+    "start": "supervisor -w client,server -i client/public -e coffee,jade,js,styl,css -x sh -- run.sh"
   },
   "engines": {
     "node": "0.6.x"
