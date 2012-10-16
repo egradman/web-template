@@ -13,7 +13,7 @@ RedisStore = require('connect-redis')(connect)
 
 app = express()
 
-# default (development)
+# default (development no env set)
 conf = require("../conf-development")
 
 app.configure "production", ->
